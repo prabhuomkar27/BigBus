@@ -1,0 +1,27 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  padding: 1rem;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.seats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button.selected {
+  background-color: #4CAF50;
+  color: white;
+}
